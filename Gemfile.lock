@@ -332,7 +332,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    rbovirt (0.1.6)
+    rbovirt (0.1.7)
       nokogiri
       rest-client (> 1.7.0)
     rbvmomi (1.13.0)
