@@ -77,7 +77,7 @@ GEM
     ffi (1.9.25)
     fission (0.5.0)
       CFPropertyList (~> 2.2)
-    fog (1.42.0)
+    fog (2.0.0)
       fog-aliyun (>= 0.1.0)
       fog-atmos
       fog-aws (>= 0.6.0)
@@ -323,6 +323,11 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (5.1.4)
       actionpack (= 5.1.4)
       activesupport (= 5.1.4)
@@ -409,7 +414,8 @@ DEPENDENCIES
   carrierwave (= 1.2.2)
   coffee-rails (= 4.2.2)
   faker (= 1.7.3)
-  fog (= 1.42)
+  fog
+  fog-aws
   guard (= 2.14.1)
   guard-minitest (= 2.4.6)
   jbuilder (= 2.7.0)
@@ -422,6 +428,7 @@ DEPENDENCIES
   puma (= 3.9.1)
   rails (= 5.1.4)
   rails-controller-testing (= 1.0.2)
+  rails_12factor
   sass-rails (= 5.0.6)
   spring (= 2.0.2)
   spring-watcher-listen (= 2.0.1)
