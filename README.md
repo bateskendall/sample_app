@@ -5,6 +5,8 @@ This is the sample application for
 Learn Web Development with Rails*](http://www.railstutorial.org/)
 by [Michael Hartl](http://www.michaelhartl.com/).
 
+A working build of this app is available at [http://kendall-sample-app.herokuapp.com](http://kendall-sample-app.herokuapp.com).
+
 ## License
 
 All source code in the [Ruby on Rails Tutorial](http://railstutorial.org/)
